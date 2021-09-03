@@ -1,3 +1,4 @@
+// generated api key
 const API_KEY = `77c160db01d141688a685fda96b0eb97`;
 
 const searchTemparature = () => {
@@ -20,4 +21,5 @@ const displayTemparature = temparature => {
     const url = `https://openweathermap.org/img/wn/${temparature.weather[0].icon}@2x.png`
     const weatherIcon = document.getElementById('weather-icon');
     weatherIcon.setAttribute('src', url);
+
 }
